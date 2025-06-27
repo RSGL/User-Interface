@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    padding-left: 40px;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,94 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header ul nav {
+    margin: 15px 20px;
+    display: flex;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li a {
+    margin: 0px 30px;
+    color: gray;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #444444;
+    text-decoration: none;
+}
+
+.logo {
+    padding-left: 20px;
+	vertical-align: middle;
+}
+
+header div br {
+    color: black;
+    display: inline;
+    font-size: 50px;
+}
+
+header div {
+    display: flex;
+}
+
+header div h1 {
+    color: black;
+    font-size: 80px;
+    padding-left: 100px;
+    margin: 100px 0px;
+    text-align: center;
+}
+
+header div img {
+    width: 400px;
+    height: 400px;
+    margin: 20px 200px;
+}
+
+button {
+    margin: -100px 180px;
+    padding: 5px 40px 5px 40px;
+    font-size: 15px;
+
+    background: white;
+    border-color: gray;
+}
+
+.middle-img {
+    height: 180px;
+    width: 90%;
+    margin: 40px 0px;
+}
+
+div {
+    display: flex;
+}
+
+div section p {
+    max-width: 70%;
+}
+
+hr {
+    margin: 40px 0px;
+    max-width: 90%;
+}
+
+footer address h3 {
+    text-align: baseline;
+    width: 30%;
+    display: inline;
+}
+
+footer address p {
+    text-align: left;
+}
+
+.copyright { 
+    margin: 50px 0px;
+    text-align: center;
+}
