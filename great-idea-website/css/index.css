@@ -65,13 +65,17 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header ul nav li {
+    display: inline;
+}
+
 header ul nav {
-    margin: 15px 20px;
-    display: flex;
+    display: inline;
 }
 
 header ul {
-    display: flex;
+    display: inline;
 }
 
 header ul li a {
@@ -86,8 +90,8 @@ header ul li a:hover {
 }
 
 .logo {
-    padding-left: 20px;
-	vertical-align: middle;
+    display: inline; 
+    margin: 0px 0px;
 }
 
 header div br {
@@ -97,15 +101,17 @@ header div br {
 }
 
 header div {
-    display: flex;
+    display: inline-block;
 }
 
 header div h1 {
     color: black;
     font-size: 80px;
-    padding-left: 100px;
-    margin: 100px 0px;
     text-align: center;
+    margin: 100px 0px;
+	vertical-align: top;
+    max-width: 400px;
+    display: inline-block;
 }
 
 header div img {
@@ -114,10 +120,17 @@ header div img {
     margin: 20px 100px;
 }
 
-button {
-    margin: -100px 180px;
+section  {
+    display: inline-block;
+    max-width: 20%
+}
+
+div button {
+    margin: 0px 00px;
     padding: 5px 40px 5px 40px;
     font-size: 15px;
+    
+    width: 50;
 
     background: white;
     border-color: gray;
@@ -130,11 +143,15 @@ button {
 }
 
 div {
-    display: flex;
+    display: inline-block;
+}
+
+div section {
+    margin: 0px 5%;
 }
 
 div section p {
-    max-width: 70%;
+    max-width: 80%;
 }
 
 hr {
